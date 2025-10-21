@@ -1,0 +1,27 @@
+/* css/style.css - gaya sederhana untuk website */
+body {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  }
+  
+  .hero {
+    background-image: linear-gradient(180deg, rgba(255,255,255,0.6), rgba(255,255,255,0.8));
+  }
+  
+  .navbar-brand img {
+    border-radius: 6px;
+  }
+  
+  /* Card spacing */
+  .card {
+    border-radius: 8px;
+    box-shadow: 0 1px 6px rgba(125, 168, 255, 0.05);
+  }
+  
+  /* Footer small */
+  footer { font-size: 0.95rem; }
+  
+  /* Responsive tweaks */
+  @media (max-width: 576px) {
+    .hero { text-align: center; }
+  }
+  
